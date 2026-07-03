@@ -1,0 +1,10 @@
+a=int(input("enter a number: "))
+b=62
+if (a>b):
+    print("too high")
+elif(a<b):
+    print("too low")
+elif(a==b):
+    print("correct!")
+elif(a>100):
+    print("number out of range")
