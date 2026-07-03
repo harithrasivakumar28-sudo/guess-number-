@@ -1,5 +1,6 @@
 a=int(input("enter a number: "))
 b=62
+for i in range(1, 5):
 if (a>b):
     print("too high")
 elif(a<b):
@@ -8,3 +9,5 @@ elif(a==b):
     print("correct!")
 elif(a>100):
     print("number out of range")
+
+print(":)")
